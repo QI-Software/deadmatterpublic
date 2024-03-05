@@ -17,6 +17,10 @@ Please submit any issues that you've encountered to the Issue tracker, we'll tag
 
 If you want to talk about the game and suggest ideas, etc. Please do so in the discussions, we're just using the default stuff that each GitHub repository ships with as a template but will flesh things out as needed to keep things organized.
 
+## Want to know more?
+
+We've got a channel in our Discord server that covers commits as they get made to the game, it also contains information about the current status of our official servers in the event that they crash, etc. If you want to check it out, just connect to Discord via https://discord.gg/deadmatter
+
 ## Build Status
 | ![Static Badge](https://img.shields.io/badge/CI-Editor-blue) | ![Build Status](https://qidev.teamcity.com/app/rest/builds/buildType:(id:Deadmatter_CiEditor)/statusIcon) |
 | --------------: | :---------------------------------------------- |
