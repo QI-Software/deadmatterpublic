@@ -1,16 +1,20 @@
 # Linux Dedicated Server
 
 ### Running via AMP
-There is a Dead Matter template already in [AMP](https://cubecoders.com/) that will configure and monitor your server for you. It is reccomended to run the new instance inside Docker - this way all dependancies are pre-installed for you. This can be configured within AMP. 
+There is a Dead Matter template already in [AMP](https://cubecoders.com/AMP) that will configure and monitor your server for you. It is reccomended to run the new instance inside Docker - this way all dependancies are pre-installed for you. This can be configured within AMP. 
+
 *Note, this is a paid product.*
+
 1) Make sure your AMP is up to date
 2) Create a new instance (Dead Matter will be in the list)
 3) Follow usual AMP processes to update the server, configure settings, then run
 
 ### Running Manually
 **It is not reccomended to run as root. Create a dedicated user to run the server first.**
-1) Install Wine
+1) Install Wine:
+
     `sudo apt update`
+   
     `sudo apt install wine`
 
 2) Download Server Files
