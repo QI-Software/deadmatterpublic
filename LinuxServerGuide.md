@@ -15,8 +15,8 @@ There is a Dead Matter template already in [AMP](https://cubecoders.com/) that w
 
 2) Download Server Files
     * Log in as your server user and create a folder for SteamCMD: `mkdir $HOME/steamcmd`
-    * `wget -P $HOME/steamcmd https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz`
-    * `tar -xzvf $HOME/steamcmd/steamcmd_linux.tar.gz -C $HOME/steamcmd/`
+    * Download SteamCMD: `wget -P $HOME/steamcmd https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz`
+    * Unpack: `tar -xzvf $HOME/steamcmd/steamcmd_linux.tar.gz -C $HOME/steamcmd/`
     * Download the server files: `$HOME/steamcmd/steamcmd.sh +@sSteamCmdForcePlatformType windows +force_install_dir ~/DeadMatter +login anonymous +app_update 2584780 validate +quit`
     * Download SteamSDK: `$HOME/steamcmd/steamcmd.sh +@sSteamCmdForcePlatformType windows +force_install_dir ~/DeadMatter/DeadMatter/Binaries/Win64 +login anonymous +app_update 1007 validate +quit`
 3) Launch the server (assumptions that you understand how to run in screens etc)
